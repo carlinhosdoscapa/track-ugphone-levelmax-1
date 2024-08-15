@@ -28,7 +28,7 @@ task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Key = ""
 getgenv().SettingFarm ={
-    ["GodHuman"] = false,
+    ["GodHuman"] = true,
     ["Priority Get Melee Sea 3"] = false,
     ["Auto Saber"] = true,
     ["Auto Pole"] = true,
