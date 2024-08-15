@@ -36,7 +36,7 @@ getgenv().SettingFarm ={
     ["SoulGuitar"] = false,
     ["Shark Anchor"] = false, --i have cdk and god and soulguitar
     ["Farm Mastery Fruit If Lvl Max"] = false,
-    ["Hop Fruit 1M Quest Third Sea"] = false,
+    ["Hop Fruit 1M Quest Third Sea"] = true,
     ["White Screen"] = true,
     ["Hop if Near Farm Area"] = true,
     ["Auto Race V2-V3"] = true,
@@ -81,19 +81,7 @@ getgenv().SettingFarm ={
       "Control-Control",
       "Venom-Venom",
       "Shadow-Shadow",
-      "Dough-Dough",
-      "T-Rex-T-Rex",
-      "Blizzard-Blizzard",
-      "Pain-Pain",
-      "Rumble-Rumble",
-      "Portal-Portal",
-      "Phoenix-Phoenix",
-      "Sound-Sound",
-      "Spider-Spider",
-      "Love-Love",
-      "Buddha-Buddha",
-      "Magma-Magma",
-      "Light-Light"
+      "Dough-Dough"
     },
     ["Webhook"] = {
         ["Enabled"] = false,
