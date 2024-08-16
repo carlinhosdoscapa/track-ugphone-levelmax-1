@@ -75,5 +75,20 @@ getgenv().SettingFarm ={
 getgenv().Key = "1400785d3f69359db5dbc06f" 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
 
-_G.Config = { UserID = "2ecc7ebd-4788-47be-b07d-43dd6589ac94", discord_id = 1037147029614362624 , Note = "[LEVEL MAX] UGPHONE - 1", } 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/trackstatblox"))()
+repeat task.wait() until game:IsLoaded()
+getgenv().Hermanos_Settings = {
+	['key'] = 'f0b60f7a-9097-478e-92ea-ab1541043a54',
+	['PC'] = 'DDC-1',
+
+	['webhooks'] = {
+		['fullmoon'] = 'https://discord.com/api/webhooks/',
+		['mirage'] = 'https://discord.com/api/webhooks/',
+	},
+
+	['Sword'] = {'Cursed Dual Katana', 'Shark Anchor', 'Tushita', 'Yama', 'Dark Dagger', 'Hallow Scythe', 'Saber'},
+	['Gun'] = {'Soul Guitar', 'Serpent Bow', 'Kabucha', 'Acidum Rifle'},
+	['Accessories'] = {'Dark Coat', 'Leviathan Shield','Leviathan Crown', 'Pale Scarf', 'Kitsune Mask', 'Kitsune Ribbon'},
+	['Fruit'] = {'Kitsune', 'Leopard', 'Dragon',  'Spirit', 'Control', 'Venom', 'Shadow', 'Dough','Mammoth', 'T-Rex'},
+}
+task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/script.lua'))() end)
+	
